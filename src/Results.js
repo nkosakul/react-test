@@ -12,6 +12,7 @@ class Results extends React.Component {
     super(props); // always use super, if constructor is used
 
     this.state = {
+      loading: true,
       pets: []
     };
   }
@@ -37,12 +38,20 @@ class Results extends React.Component {
         }
 
         this.setState({
+          loading: false,
           pets // write `pets` instead of `pets: pets` (javascript shorthand)
         });
+      })
+      .catch(err => {
+        console.log(err);
       });
   }
 
   render() {
+    if (this.state.loading) {
+      return <h1>Loading ...</h1>;
+    }
+
     return (
       <div className="search">
         {this.state.pets.map(pet => {
