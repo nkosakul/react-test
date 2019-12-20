@@ -22,7 +22,7 @@ class Carousel extends React.Component {
     });
   };
 
-  render = () => {
+  render() {
     const { photos, active } = this.state;
 
     return (
@@ -43,7 +43,7 @@ class Carousel extends React.Component {
         </div>
       </div>
     );
-  };
+  }
 }
 
 export default Carousel;
