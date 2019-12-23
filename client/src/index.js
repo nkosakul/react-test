@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
 import { ApolloProvider } from '@apollo/react-hooks'
 import client from './client';
-console.log(client);
 import App from './components/App'
 import './index.css'
 

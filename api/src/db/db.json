@@ -42,6 +42,20 @@
       "name": "Goose",
       "type": "DOG",
       "user": "jBWMVGjm50l6LGwepDoty"
+    },
+    {
+      "id": "TkLLTrsT4E-V21hwoeVxi",
+      "createdAt": 1577108584988,
+      "name": "lulu",
+      "type": "CAT",
+      "user": "jBWMVGjm50l6LGwepDoty"
+    },
+    {
+      "id": "jWAHJw3thFYlE3SKVWLUB",
+      "createdAt": 1577108599461,
+      "name": "Garfield",
+      "type": "CAT",
+      "user": "jBWMVGjm50l6LGwepDoty"
     }
   ]
 }
