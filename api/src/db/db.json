@@ -3,5 +3,38 @@
     "id": "jBWMVGjm50l6LGwepDoty",
     "username": "frontendmaster"
   },
-  "pet": []
+  "pet": [
+    {
+      "id": "123",
+      "type": "DOG",
+      "name": "Moose",
+      "createdAt": "345635645643"
+    },
+    {
+      "id": "12322",
+      "type": "CAT",
+      "name": "Luna",
+      "createdAt": "345635645643"
+    },
+    {
+      "id": "12443",
+      "type": "DOG",
+      "name": "Karma",
+      "createdAt": "345635645643"
+    },
+    {
+      "id": "bQR7xvAg3USrqlAf-MN2C",
+      "createdAt": 1577099231989,
+      "name": "test",
+      "type": "DOG",
+      "user": "jBWMVGjm50l6LGwepDoty"
+    },
+    {
+      "id": "P5nxxT1wBnwc7joylM1YY",
+      "createdAt": 1577099282824,
+      "name": "mimi",
+      "type": "CAT",
+      "user": "jBWMVGjm50l6LGwepDoty"
+    }
+  ]
 }
