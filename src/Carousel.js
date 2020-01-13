@@ -20,7 +20,7 @@ class Carousel extends React.Component {
     });
   };
 
-  return() {
+  render() {
     const { photos, active } = this.state;
 
     return (
