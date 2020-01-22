@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react';
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
 import ShowCard from './ShowCard';
 import Header from './Header';
 
@@ -26,4 +26,4 @@ const mapStateToProps = state => ({
   searchTerm: state.searchTerm,
 });
 
-export default connect(mapStateToProps())(Search);
+export default connect(mapStateToProps)(Search);
