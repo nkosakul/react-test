@@ -1,5 +1,6 @@
-import { createStore } from 'redux';
-import reducer from './reducers';
+// @flow
+import { createStore } from "redux";
+import reducer from "./reducers";
 
 const store = createStore(reducer);
 
