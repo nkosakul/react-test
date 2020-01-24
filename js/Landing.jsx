@@ -23,7 +23,7 @@ class Landing extends Component {
             value={this.props.searchTerm}
             type="text"
             placeholder="Search"
-            onChange={this.props.handleSearchTermChange}
+            onChange={this.props.s.props}
           />
         </form>
         <Link to="/search">or Browse All</Link>
