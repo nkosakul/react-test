@@ -70,5 +70,3 @@ yarn-error.log
 .env.*
 !.env.EXAMPLE
 .netlify
-.idea
-public/
